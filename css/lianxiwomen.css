@@ -1,0 +1,16 @@
+@charset "UTF-8";
+.container{overflow: hidden; margin-bottom: 127px;}
+.container .container-main{width:347px; margin-left: 115px; display: inline-block; float: left;}
+.container .container-main .container-title h1{font-size: 70px; font-weight: bold;}
+.container .container-main .container-title p{font-size: 40px;}
+.container .container-main .container-information-frist{margin-top: 53px; line-height: 28px; margin-bottom: 45px;}
+.container .container-main .container-information-second{line-height: 28px;}
+.container .container-main p{margin-top: 36px;}
+/*图片*/
+.container-picture{width:758px; height: 530px; background: url("../images/common/pian-us_03.png"); float: left; margin-right: 113px; margin-top:80px;}
+/*二维码*/
+.container-code{margin-top: 285px;}
+
+
+
+

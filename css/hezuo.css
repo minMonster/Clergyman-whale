@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.container{overflow: hidden;width: 100%}
+.container-business{width:340px;float: left;height: 600px;}
+.container-business h1{background-image: url("../images/common/swhz.png");background-repeat: no-repeat;height: 178px;background-size: 100% 100%;width: 325px;}
+.container-business .business-frist{margin-top: 25px;  margin-bottom:25px;}
+.container-business ul{line-height: 28px;}
+/*地图*/
+.business-map{width:600px; height: 542px; background-color: #78e0e2; float: left;}
+/*二维码*/
+.business-code{margin-top:218px;}
+/*百度地图*/
+#dituContent{width:658px;height:513px;border:#ccc solid 1px;position: absolute;right: 0;}
+/*加入我们*/
+.container .container-main{width:340px; display: inline-block; float: left;margin-top: 40px}
+.container .container-main .container-title h1{background-image: url("../images/common/jrwm.png");background-repeat: no-repeat;height: 125px;background-size: 100% 100%;width: 325px;}
+
+.container .container-main .container-information-frist{margin-top: 55px; line-height: 28px; margin-bottom: 20px;}
+.container .container-main .container-information-second{line-height: 28px;margin-bottom: 20px}
+.container .container-main p{margin-top: 5px;}
+/*图片*/
+.container-picture{width:624px; height: 530px; background: url("../images/common/pian-us_03.png"); float: left; right: 0; margin-top:140px;position: absolute}
+/*盒子*/
+.box-1{position: relative;height: 600px}
+.box-2{position: relative;height: 670px}
+.box-3{background: url("../images/common/hezuo_02.jpg");width: 659px;height: 227px;margin: 0 auto;margin-top: 45px}
+
+

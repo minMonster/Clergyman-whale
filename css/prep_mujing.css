@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.container{overflow: hidden;width: 100%}
+.qyjj{float: left;width: 1000px}
+.qyjj h1{background-image: url("../images/common/jianjie.png");background-repeat: no-repeat;height: 181px;background-size: 100% 100%;width: 325px;;}
+.qyjj .business-frist{margin-top: 25px;  margin-bottom:25px;}
+.qyjj ul{line-height: 28px;}
+.qyjj .detail{font-size: 16px;color: #000000;width: 540px;text-indent: 2rem;letter-spacing: 1px;text-align: justify;line-height: 24px;margin-top: 30px}
+.qyjj img{position: absolute;top: 210px;right: 95px}
+
+.qywh{float: left;margin-top: -15px;width: 1000px;text-align: right}
+.qywh h1{background-image: url("../images/common/wenhua.png");background-repeat: no-repeat;height: 181px;background-position: center right;}
+.qywh .business-frist{margin-top: 25px;  margin-bottom:25px;}
+.qywh ul{line-height: 28px;}
+.qywh .detail{font-size: 16px;color: #000000;width: 520px;text-indent: 2rem;letter-spacing: 1px;text-align: justify;line-height: 24px;float: right;margin-top: 30px}
+.qywh img{position: absolute;top: -15px;left: 0;}
+
+.qygj{float: left;margin-top: -15px;width: 1000px}
+.qygj h1{background-image: url("../images/common/jiagou.png");background-repeat: no-repeat;height: 181px;background-position: center left;}
+.qygj .business-frist{margin-top: 25px;  margin-bottom:25px;}
+.qygj ul{line-height: 28px;}
+.qygj .detail{font-size: 16px;color: #000000;width: 540px;letter-spacing: 1px;text-align: justify;line-height: 24px;margin-top: 30px}
+.qygj img{position: absolute;top: 0;right: 125px}
+/*盒子*/
+.box-1{position: relative;height: 610px}
+.box-2{position: relative;height: 460px}
+.box-3{position: relative;height: 550px}
+
+

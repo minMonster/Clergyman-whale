@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.container{overflow: hidden;width: 100%}
+.container .content{position: relative;width: 100%;min-height: 600px}
+.container .content .title{width: 1000px;margin: 0 auto;background: url("../images/common/beijing_04.png");height: 47px;margin-bottom: 40px}
+.title span{font-size: 30px;font-weight: bold;line-height: 47px;float: left;display: inline-block;background: #ffffff;padding-right: 19px}
+/*文本区*/
+.container .cont{text-align: center}
+.container .cont p{margin: 20px 0;font-size: 16px;color: #000000;line-height: 26px;text-indent: 2rem;text-align: left}
+.container .cont img{margin-bottom: 10px}

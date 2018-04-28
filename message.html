@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鲸玖信息</title>
+    <link rel="icon" href="http://img.bj.wezhan.cn/2038022_favicon.ico?t=201706091855250159">
+    <link rel="stylesheet" href="css/common.css">
+    <link href="css/message.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div class="main-nav">
+    <div class="top-content">
+        <a href="index.html" class="logo"></a>
+        <ul class="title">
+                <li><a href="index.html">首页</a></li>
+                <li class="icon">.</li>
+                <li><a href="prep_mujing.html">关于牧鲸</a></li>
+                <li class="icon">.</li>
+                <li><a href="http://www.miaoxueshu.com/">喵学叔</a></li>
+                <li class="icon">.</li>
+                <li><a href="http://www.jingyi.mejour.cn/">鲸益互动</a></li>
+                <li class="icon">.</li>
+                <li><a href="mujingfanyu.html">鲸玫泛娱</a></li>
+                <li class="icon">.</li>
+                <li><a href="message.html" class="title-now">鲸玖信息</a></li>
+                <li class="icon">.</li>
+                <li><a href="hezuo.html" class="">联系我们</a></li>
+            </ul>
+    </div>
+</div>
+ <div class="flower"></div>
+
+<div class="container">
+    <div class="left-list" id="left-list">
+        <ul>
+            <li><a href="#gsjj" id="nav-gsjj" class="cur">公司简介</a></li>
+            <li><a href="#xmzs" id="nav-xmzs" class="">项目展示</a></li>
+        </ul>
+    </div>
+    <div class="inner">
+        <div class="container-main">
+            <div class="main-word">
+                <div class="big-title">
+                    <h1></h1>
+                </div>
+                <div class="pic">
+                    <img src="images/common/logo2.jpg" width="300" height="300">
+                </div>
+                <p class="section">常州鲸玖信息技术有限公司作为上海牧鲸文化传媒旗下子公司之一，依托集团丰富的高校学生资源和公司雄厚的软件研发力量，致力于向市场提供为高校学生量身定制的应用软件。目前，由本公司匠心打造的APP"有鲸余"已全面上市推广，集商城与任务平台为一体的"有鲸余"极大程度满足了高校学生开源节流的需求，一上市便受到各校学生大力推崇追捧，下载量当月破万。鲸玖信息，为高校学生便捷应用生活谋福祉，我们前进不息。</p>
+            </div>
+            <div class="project">
+                <div class="little-title">
+                    <a href="#xmzs" class="hide"></a>
+                    <span></span>
+                    <p></p>
+                </div>
+                <div class="pro-pic">
+                    <div class="mod mod-1">
+                        <img src="images/common/waiting.jpg" width="454" height="242">
+                        <p class="des">有鲸余APP</p>
+                        <p>敬请期待</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper-6">
+    <div class="copyright">
+        <div class="copyright-content">
+            <div class="content-left">
+                <p class="content-top">牧鲸传媒 · 只要结果拒绝理由</p>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li class="line"></li>
+                    <li><a href="prep_mujing.html">关于牧鲸</a></li>
+                    <li class="line"></li>
+                    <li><a href="http://www.miaoxueshu.com/">喵学叔</a></li>
+                    <li class="line"></li>
+                    <li><a href="http://www.jingyi.mejour.cn/">鲸益互动</a></li>
+                    <li class="line"></li>
+                    <li><a href="mujingfanyu.html">鲸玫泛娱</a></li>
+                    <li class="line"></li>
+                    <li><a href="message.html">鲸玖信息</a></li>
+                    <li class="line"></li>
+                    <li><a href="hezuo.html">联系我们</a></li>
+                </ul>
+                <p class="address">
+                    <span>牧鲸传媒有限公司</span>
+                    <span>上海市普陀区岚皋路567号品尊国际中心B栋11楼1130</span>
+                </p>
+                <p class="region">
+                    <span>TEL+0519-83339625</span>
+                    <span><a href="http://www.miitbeian.gov.cn/"  target="_blank">沪ICP备:16054871号</a></span>
+                </p>
+            </div>
+            <div class="content-right">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="lib/jquery-1.10.1/jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+    window.onload=function(){
+        $("#nav-gsjj").click();
+        $(window).bind("scroll", function () {
+            var top = $(this).scrollTop(); // 当前窗口的滚动距离
+            console.log(top);
+            if (top > 360) {
+                $("#nav-xmzs").addClass("cur");
+                $("#nav-gsjj").removeClass("cur");
+            }
+            if (top < 220) {
+                $("#nav-xmzs").removeClass("cur");
+                $("#nav-gsjj").addClass("cur");
+            }
+        });
+    }
+    $("#nav-gsjj").click(function(scroll_even){
+        $("#nav-gsjj").addClass("cur");
+        $("#nav-xmzs").removeClass("cur");
+        $("body,html").animate({scrollTop:(0)+"px"},400);//页面滚动到指定高度
+        $(".left-list").animate({
+            top: 250, opacity: 'show'
+        }, 500,function(){
+            return scroll_even();
+        });
+        scroll_even.stopPropagation;
+    });
+    $("#nav-xmzs").click(function(scroll_even){
+        $("#nav-xmzs").addClass("cur");
+        $("#nav-gsjj").removeClass("cur");
+        $("body,html").animate({scrollTop:(800)+"px"},400);//页面滚动到指定高度
+        $(".left-list").animate({
+            top: 50, opacity: 'show'
+        }, 500,function(){
+            return scroll_even();
+        });
+        scroll_even.stopPropagation;
+    });
+    function scroll_even(){
+        $(window).bind("scroll", function(){
+            var top = $(this).scrollTop(); // 当前窗口的滚动距离
+            if (top < 200 ) {
+                var top_move = 251 - top;
+                $(".left-list").css({"top":top_move + "px"});
+            };
+        });
+    };
+</script>
+</html>

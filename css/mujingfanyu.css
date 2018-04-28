@@ -1,0 +1,21 @@
+@charset "UTF-8";
+.container .container-main{margin: 0 auto; }
+.container .container-main .introduce{width:1000px; height:480px;margin-top: -15px}
+.container .container-main .introduce .mod-hd{height: 153px;display: inline-block;width: 50%;}
+.mod-hd h1{background-image: url("../images/common/mjfy.png");background-repeat: no-repeat;height: 117px;background-position: center left;}
+.introduce .mod-hd p{font-size: 30px;margin-top: 5px;letter-spacing: 3px;margin-bottom: 11px;text-indent: 0;line-height: 39px}
+.little-title p{width:919px; height: 47px; background: url("../images/common/beijing_04.png"); display: inline-block; }
+.introduce .pic{width:300px; height: 300px;float: right;margin-left: 28px}
+.introduce p{text-align: justify; line-height:27px; text-indent: 2em;font-size: 16px;letter-spacing: 1px}
+.introduce .project{width:1000px; height: 504px;}
+.project{width:1000px; margin: 0 auto;margin-bottom: 20px;margin-top: 40px;}
+.project .little-title{overflow: hidden;}
+.project .little-title span{background-image: url("../images/common/xiangmu.png");background-repeat: no-repeat;width: 76px;height: 47px;float: left;}
+.project .mod{width: 460px;clear: both;height: 321px;border: 3px solid #78e0e2;margin: 10px 18px;background: #78e0e2;cursor: pointer;display: inline-table}
+.project .mod img{margin: 1px 0 0 1px}
+.project .mod p{font-size: 20px;text-align: center;color: #000000;line-height: 25px;margin-top: 5px;padding: 0 5px;width: 455px;cursor: pointer;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden}
+.project .pro-pic{width: 1000px;margin-top: 10px;clear: both}
+.project .mod .des{margin-top: 10px}
+
+
+

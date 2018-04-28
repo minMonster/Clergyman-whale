@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/*************************************************
+文件名：全局引入样式
+作者：Aaron & Monster
+使用范围：整站
+描述：css通用样式  下方会有详细注释
+*************************************************/
+@import "reset.css";
+@import "base.css";
+@import "../lib/swiper-3.4.2/swiper-3.4.2.min.css";
+@import "../lib/swiper-animate-1.0.2/animate.min.css";

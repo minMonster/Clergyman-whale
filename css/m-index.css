@@ -1,0 +1,47 @@
+.icon{position: absolute;}
+.box-1{background-color: #78e0e2;position: relative;}
+.box-1 .logo{background-image: url("../images/index_m/大LOGO@2x.png");background-size: 100% 100%;width: 2.39rem;height: 2.72rem;left: 2.56rem;top: 0.83rem;}
+.box-1 .text-mu{background-image: url("../images/index_m/圆角矩形-1-拷贝-2@2x.png");background-size: 100% 100%;width: 1.04rem;height: 1.16rem;left: 2.78rem;top: 3.85rem;}
+.box-1 .text-jing{background-image: url("../images/index_m/圆角矩形-1-拷贝-30@2x.png");background-size: 100% 100%;width: 0.99rem;height: 1.16rem;left: 3.89rem;top: 4.2rem;}
+.box-1 .wave{background-image: url("../images/index_m/海浪@2x.png");background-size: 100% 100%;width: 7.5rem;height: 2.68rem;bottom: 0;}
+.box-1 .rock{background-image: url("../images/index_m/岩石@2x.png");background-size: 100% 100%;width: 1.81rem;height: 1.96rem;left: 0;bottom: 0;}
+.box-1 .mermaid{background-image: url("../images/index_m/美人鱼@2x.png");background-size: 100% 100%;width: 2.24rem;height: 2.77rem;left: 2.56rem;bottom: 0;}
+.box-1 .light{background-image: url("../images/index_m/灯塔@2x.png");background-size: 100% 100%;width: 0.76rem;height: 2.8rem;right: 0.5rem;bottom: 0;}
+.box-1 #output p{font-size: 0.33rem;width: 0.33rem;float: left;margin-top: 5.9rem;color: #59493f;}
+.box-1 #output p:first-child{margin-left: 3.5rem;padding-right: 0.2rem;line-height: 0.364rem}
+
+.box-2 .cloud{background-image: url("../images/index_m/云朵@2x.png");background-size: 100% 100%;width: 7.5rem;height: 1.19rem;left: 0;top: 0;}
+.box-2 .icon-2{background-image: url("../images/index_m/缆车2@2x.png");background-size: 100% 100%;width: 3.49rem;height: 1.31rem;left: 0;top: 0;}
+.box-2 .icon-3{background-image: url("../images/index_m/龙门@2x.png");background-size: 100% 100%;width: 2.06rem;height: 1.31rem;right: 1rem;top: 0;}
+.box-2 .icon-4{background-image: url("../images/index_m/海星@2x.png");background-size: 100% 100%;width: 2rem;height: 2rem;left: 2.75rem;top: 2.16rem;}
+.box-2 .icon-5{background-image: url("../images/index_m/图层-1@2x.png");background-size: 100% 100%;width: 0.42rem;height: 0.4rem;left: 3.54rem;bottom: 0.46rem;}
+.box-2 .text-title{padding-top: 4.6rem;text-align: center;font-size: 0.4rem;color: #59493f;line-height: 2;}
+.box-2 .text-content-l{padding: 0 0.5rem;text-indent:2em;font-size: 0.25rem;color: #59493f;line-height: 2;padding-top: 0.7rem;}
+.box-2 .text-content-r{padding: 0 0.5rem;text-indent:2em;font-size: 0.25rem;color: #59493f;line-height: 2;}
+.box-2 .more{padding-top: 0.8rem;text-align: center;font-size: 0.33rem;color: #59493f;line-height: 1.5;font-weight: 700;}
+
+.box-3{background-color: #78e0e2;position: relative;}
+.box-3 .icon-1{background-image: url("../images/index_m/珊瑚@2x.png");background-size: 100% 100%;width: 7.5rem;height: 1.29rem;left: 0;top: 0;}
+.box-3 .icon-2{background-image: url("../images/index_m/小贝壳@2x.png");background-size: 100% 100%;width: 1.92rem;height: 1.78rem;left: 2.78rem;top: 1.82rem;}
+.box-3 p{text-align: center;color: #59493f;}
+.box-3 .text-title{padding-top: 4rem;font-size: 0.41rem;}
+.box-3 .text{padding-top: 0.4rem;font-size: 0.33rem;line-height: 1.6;}
+.box-3 .content-1 p,.box-3 .content-3 p{color: #FFFFFF;}
+
+.box-4 .icon-1{background-image: url("../images/index_m/小鲸鱼@2x.png");background-size: 100% 100%;width: 1.99rem;height: 1.61rem;left: 2.76rem;top: 0.6rem;}
+.box-4 .icon-2{background-image: url("../images/index_m/56dbda3e526bb-拷贝-9@2x.png");background-size: 100% 100%;width: 7.5rem;height: 1.03rem;left: 0;bottom: 0;}
+.box-4 .text-title{text-align: center;color: #59493f;font-size: 0.41rem;padding-top: 2.5rem;}
+.box-4 .brand-list{height: 6rem;margin-top: 0.8rem;margin-left: 0.5rem;margin-right: 0.5rem;overflow: hidden;}
+.box-4 .brand-list img{width: 1.8rem;height: 1.8rem;margin:0 0.15rem;}
+
+.box-5{position: relative;background-color: #78e0e2;}
+.box-5 .icon-1{background-image: url("../images/index_m/太阳@2x.png");background-size: 100% 100%;width: 2rem;height: 2rem;left: 2.75rem;top: 0.7rem;}
+.box-5 .icon-2{background-image: url("../images/index_m/圆角矩形-1-拷贝-3@2x.png");background-size: 100% 100%;width: 6.5rem;height: 2.81rem;left: 0.5rem;top: 3.86rem;z-index: 10;}
+.box-5 .icon-3{background-image: url("../images/index_m/水草4-拷贝@2x.png");background-size: 100% 100%;width: 7.5rem;height: 2.76rem;left: 0;top: 5.04rem;}
+.box-5 .footer{color: #ffffff;position: absolute;top: 7.82rem;text-align: center;padding: 0.2rem 0;background-color: #59493f;}
+.box-5 .footer p{width: 7.5rem;line-height: 2;font-size: 0.25rem;}
+.box-5 .footer p:first-child span:first-child{padding-right: 0.4rem;}
+.box-5 .footer p:first-child{color: rgba(255,255,255,0.7)}
+.box-5 .footer p:nth-child(2){color: rgba(255,255,255,0.7)}
+.box-5 .code img{width: 1.59rem;height: 1.59rem;}
+.box-5 .code img:first-child{position: absolute;left: 50%;margin-left: -0.8rem;bottom: 0.7rem;}
